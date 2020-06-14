@@ -1,0 +1,2 @@
+rootProject.name='ToolbarDrawerLayoutDemo'
+include ':app'
