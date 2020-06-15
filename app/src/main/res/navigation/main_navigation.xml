@@ -11,14 +11,15 @@
         android:label="HomeFragment"
         tools:layout="@layout/fragment_home"/>
     <fragment
+        android:id="@+id/terms_fragment"
+        android:name="com.rumi.toolbardrawerlayoutdemo.TermsConditionFragment"
+        android:label="TermsFragment" />
+    <fragment
         android:id="@+id/cart_fragment"
         android:name="com.rumi.toolbardrawerlayoutdemo.CartFragment"
         android:label="CartFragment"
         tools:layout="@layout/fragment_cart"/>
-    <fragment
-        android:id="@+id/leave_fragment"
-        android:name="com.rumi.toolbardrawerlayoutdemo.LeaveFragment"
-        android:label="LeaveFragment" />
+
     <fragment
         android:id="@+id/detailFragment"
         android:name="com.rumi.toolbardrawerlayoutdemo.DetailFragment"

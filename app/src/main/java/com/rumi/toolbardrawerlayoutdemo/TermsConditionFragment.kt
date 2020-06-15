@@ -6,11 +6,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
-import com.rumi.toolbardrawerlayoutdemo.databinding.FragmentLeaveBinding
+import com.rumi.toolbardrawerlayoutdemo.databinding.FragmentTermsConditionBinding
 
-class LeaveFragment : Fragment() {
+class TermsConditionFragment : Fragment() {
 
-    lateinit var binding: FragmentLeaveBinding
+    lateinit var binding: FragmentTermsConditionBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,7 +23,7 @@ class LeaveFragment : Fragment() {
     ): View? {
         binding = DataBindingUtil.inflate(
             inflater,
-            R.layout.fragment_leave, container, false
+            R.layout.fragment_terms_condition, container, false
         )
         return binding.root
     }

@@ -2,8 +2,8 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/home_fragment"
-        android:title="home_fragment" />
+        android:title="Home" />
     <item
-        android:id="@+id/leave_fragment"
-        android:title="leave_request" />
+        android:id="@+id/terms_fragment"
+        android:title="Terms and Condition" />
 </menu>
